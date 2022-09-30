@@ -3,36 +3,40 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-header{
-    background-color: #808080b0;
-}
-header img {
-    height: 35px;
-    width: 35px;
-    
-    
-            
+
+header {
+	background-color: #808080b0;
 }
 
-h1{
-    
-    text-align: center;
-    font-size: 44px;
+header img {
+	height: 35px;
+	width: 35px;
+
+
+
 }
-nav{
+
+h1 {
+
+	text-align: center;
+	font-size: 44px;
+}
+
+nav {
 	display: flex;
 	justify-content: center;
-	gap:40px;
+	gap: 40px;
 	padding: 10PX;
-    text-align: center;
-    background-color: black;
-    
+	text-align: center;
+	background-color: black;
+
 }
 
-nav a{
-    text-decoration: none;
-    color: #fff;
+nav a {
+	text-decoration: none;
+	color: #fff;
 }
+
 body {
 	background: #1D202B;
 	color: #fff;
@@ -52,7 +56,7 @@ body {
 
 	/* Grid */
 	display: grid;
-	grid-template-columns: 3fr; 
+	grid-template-columns: 3fr;
 	gap: 20px;
 }
 
@@ -69,35 +73,48 @@ body {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
-    
+
 }
 
- .card {
+.card {
 	border-radius: 40px;
 	min-height: 400px;
-    width: 400px;
-    
+	width: 400px;
+
 	font-weight: bold;
 	padding: 20px;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-  
+
 
 	/* Flexbox */
 	/* width: calc(33.33% - 20px); */
 }
 
-input{
-    transition: 2s all;
+main div a {
+	width: 100px;
+	height: 100px;
+
+
 }
+
+main div a :hover {
+	padding: 30px;
+	margin: 0 auto;
+	transition: 0.5s all;
+
+}
+
+
+
 .card .textos {
 	height: 100%;
-	
+
 	/* Flebox */
 	display: flex;
-    text-align: center;
+	text-align: center;
 	flex-direction: column;
 	justify-content: space-between;
 
@@ -106,40 +123,36 @@ input{
 	grid-template-rows: 1fr auto; */
 }
 
-section{
+section {
 	padding: 50px;
 }
 
-.logoF{
-    height: 35px;
-    width: 35px;
+.logoF {
+	height: 35px;
+	width: 35px;
 }
+
 .gridFoot {
-    display: grid;
-    background-color:black;
-    grid-template-areas: 'redes redes  redes'
-                        'reserved  reserved reserved';
-                 
+	display: grid;
+	background-color: black;
+	grid-template-areas: 'redes redes  redes'
+		'reserved  reserved reserved';
+
 }
 
 .resoc {
-    grid-area: redes;
-    
+	grid-area: redes;
+
 }
 
 .gridFoot span {
-    display: inline-block;
-    text-align: center;
-    grid-area: reserved;
-}
-@media screen and (max-width: 900px) {
-	
+	display: inline-block;
+	text-align: center;
+	grid-area: reserved;
 }
 
-@media screen and (max-width: 700px) {
-	
-}
+@media screen and (max-width: 900px) {}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {}
 
-}
+@media screen and (max-width: 600px) {}
