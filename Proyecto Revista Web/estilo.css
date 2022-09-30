@@ -80,7 +80,7 @@ body {
 	border-radius: 40px;
 	min-height: 400px;
 	width: 400px;
-
+	transition: 0.5s all;
 	font-weight: bold;
 	padding: 20px;
 	position: relative;
@@ -96,12 +96,13 @@ body {
 main div a {
 	width: 100px;
 	height: 100px;
-
+	
 
 }
 
 main div a :hover {
-	padding: 30px;
+	padding: 1px;
+	
 	margin: 0 auto;
 	transition: 0.5s all;
 
